@@ -17,9 +17,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          ref: main  # Change this to the branch name you want to check out
+          path: ~/  # Sp
 
       - name: Run Shell Script
         run: |
           chmod +x script.sh
           ./script.sh
           cat /tmp/dump
+          
