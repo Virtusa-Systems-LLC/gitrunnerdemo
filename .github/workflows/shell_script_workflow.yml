@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: master  # Change this to the branch name you want to check out
-          path: /tmp  # Sp
+          
       - run: mv gitrunnerdemo-${{ github.run_id }}-${{ github.run_number }} /tmp/gitrunnerdemo
 
 
