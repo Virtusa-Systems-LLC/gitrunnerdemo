@@ -22,7 +22,7 @@ jobs:
 
       - run: pwd
           
-      - run: mv ./_work/gitrunnerdemo /tmp
+      - run: mv ../gitrunnerdemo /tmp
 
 
       - name: Run Shell Script
