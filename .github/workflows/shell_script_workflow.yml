@@ -20,7 +20,7 @@ jobs:
         with:
           ref: master  # Change this to the branch name you want to check out
           
-      - run: mv gitrunnerdemo-${{ github.run_id }}-${{ github.run_number }} /tmp/gitrunnerdemo
+      - run: mv ./_work/gitrunnerdemo /tmp
 
 
       - name: Run Shell Script
